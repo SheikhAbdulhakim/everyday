@@ -1,4 +1,7 @@
-.container {
-    padding: 34px;
+.header {
+    padding: 80px;
     margin: 0;
+text-align: center;
+    background-color: aqua;
+    color: black;
 }
