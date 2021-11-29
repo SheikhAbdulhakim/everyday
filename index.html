@@ -5,44 +5,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IBM-1st-Project</title>
+    <title>Sufi Academy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>Register Form</h2>
-    <form action="register">
-        <fieldset form="user_regn" name="user_details">
-            <legend>Personal Information</legend>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname">
-            <br><br>
-            <label for="lname">Last name</label>
-            <input type="tetx" id="lname" name="lname">
-            <br><br>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-            <br><br>
-            <label for="birthday">Birthday</label>
-            <input type="date" id="birthday" name="birthday">
-        </fieldset>
-        <fieldset>
-            <legend> Education Qualification</legend>
-            <label for="university">Highest Degree</label>
-            <input type="text" id="university" name="university">
-            <br><br>
-            <label for="college">College name</label>
-            <input type="text" id="college" name="college">
-            <br><br>
-            <label for="university">University</label>
-            <input type="text" id="university" name="university">
-        </fieldset>
-    </form>
-    <input type="submit" value="submit">
+    <!--<div class="topnav">
+        <a href="#home" class="active">Home
+            <div class="topnav-centered">
+                <h1 class="about">About Us</h1>
+                <p><strong>Sufi Academy</strong> began in September 2018 with the help of Allah (SWT) and a few
+                    dedicated community
+                    members. We recognized there was a need for qualified and experienced Quran teachers that dedicated
+                    their time to producing huffadh. Over the past two years, this program has helped more than 70
+                    students learn how to read and memorize the Holy Quran with Tajweed.
+                    <em>Some of our hifz students were able to successfully complete the whole Quran and others between
+                        5-16
+                        juz in the past 2 years during their regular school year.</em>
+                    Our sessions are held on the weekend, Weekdays to allow students daily interaction at the Sufi
+                    Academy while continuing their secular education in the morning. In addition, we also provide
+                    services to adults.
+                </p>
+                <br><br>
+                <article>
+                    <p>Our curriculum begins with recognition and correct pronunciation of the Arabic Letters. As
+                        students
+                        progress, they learn how to construct words by utilizing vowels. This ultimately enables them to
+                        read the verses of the Holy Quran and with continuous practice, they become capable of reading
+                        the
+                        Holy Quran independently.</p>
+                </article>
+            -->
 
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="images/FJ-01.jpeg" width="200px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse nab=vbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pay">pay</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="about" class="aboutSec">
+        <div class="container">
+            <div class="row aboutCen">
+                <div class="col-md-12">
+                    <h2 class="contactH2Text">About</h2>
+                </div>
+                <div class="col-md-12">
+                    <img>
+                </div>
+                <div class="col-md-6">
+                    <h3>Our Founder: Abdulhakim Sheik</h3>
+                    <br>
+                    <p>
+                        Our curriculum begins with recognition and correct pronunciation of the Arabic Letters. As
+                        students progress, they learn how to construct words by utilizing vowels. This ultimately
+                        enables them to read the verses of the Holy Quran and with continuous practice, they become
+                        capable of reading the Holy Quran independently
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="servie" id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Service</h2>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <span class="card-icon">
+                                    <i class="fas fa-quran"></i>
+                                </span>
+                                <h2>Quran</h2> <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus asperiores eaque cum
+                                    ea non quis nobis sapiente quibusdam molestias fuga debitis, voluptas nemo quos
+                                    mollitia, inventore aspernatur saepe earum. Exercitationem.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <span class="card-icon">
+                                    <i class="fas fa-book"></i>
+                                </span>
+                                <h2>Islamic Studies</h2> <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nesciunt nulla
+                                    nisi quod perferendis voluptate fugiat quibusdam voluptatum in similique. Quas
+                                    mollitia voluptatum minus officiis similique dolores eos quisquam doloremque?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+    <a href="#about">About</a>
+    < <a href="#service">Service
+        </a>
+        <a href="#contact">Contact</a>
+        <a href="#register">Register</a>
+        <a href="#pay" class="w3-button w3-bar-item">pay</a>
+        </div>
+        </div>
+    -->
+        <!--
+    <section>
+        <img class="mySlides" src="images/p1.jpeg">
+        <img class="mySlides" src="images/p2.jpeg">
+        <img class="mySlides" src="images/p3.jpeg">
+    </section>
+    <section class="sa-container w3-center">
+        <h2 class="w3-wide">Welcome!</h2>
+        <p class="w3-opacity">Sufi Academy is welcomig you to their plaform</p>
+    </section>
+-->
 
-    <script src="script.js"></script>
-
+        <script src="script.js"></script>
 </body>
 
 </html>
