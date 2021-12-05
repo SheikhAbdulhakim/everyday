@@ -7,17 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sufi Academy</title>
     <link rel="stylesheet" href="style.css">
+    <link>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <section class="header">
     <nav>
         <a href="index.html"><img class="logo" src="images/logo.jpeg"></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidenMenu"></i>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">Register</a></li>
                 <li><a href="">Service</a></li>
@@ -25,8 +29,94 @@
                 <li><a href="">Pay</a></li>
             </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu"></i>
     </nav>
+    <div class="text-box">
+        <h1>Welcome To Sufi Academy</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eveniet voluptatem tenetur? Quo atque maiores
+            impedit. Eum voluptate distinctio beatae modi, <br>placeat nihil aspernatur accusamus! Accusamus doloribus
+            dicta
+            explicabo doloremque.</p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>
+
 </section>
+<!--Course-->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Ijaazah-Qira'at</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloribus suscipit placeat iusto minus a
+                accusantium quos beatae deleniti quod amet reprehenderit ullam, ipsum praesentium ad mollitia. Vel, in!
+                Voluptates.</p>
+        </div>
+        <div class="course-col">
+            <h3>Hifz</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloribus suscipit placeat iusto minus a
+                accusantium quos beatae deleniti quod amet reprehenderit ullam, ipsum praesentium ad mollitia. Vel, in!
+                Voluptates.</p>
+        </div>
+        <div class="course-col">
+            <h3>Islamic Stdueis-Arabic</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloribus suscipit placeat iusto minus a
+                accusantium quos beatae deleniti quod amet reprehenderit ullam, ipsum praesentium ad mollitia. Vel, in!
+                Voluptates.</p>
+        </div>
+    </div>
+</section>
+<!-- testimonials -->
+<section class="testimonials">
+    <h1>What Our Student and Parent Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex earum numquam iste animi. Quis eius atque minima?
+        Assumenda laudantium dolores officiis voluptatibus at! Blanditiis illo hic cum ullam ducimus similique.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/p.4.jpeg">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere similique, ut obcaecati
+                    dignissimos voluptatibus odit minima voluptas non aliquam deleniti! Voluptatibus totam nostrum
+                    expedita labore placeat animi odit non?</p>
+                <h3>Sheikh Abdulrashid Sufi</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/p.5.jpeg">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere similique, ut obcaecati
+                    dignissimos voluptatibus odit minima voluptas non aliquam deleniti! Voluptatibus totam nostrum
+                    expedita labore placeat animi odit non?</p>
+                <h3>Abdulhakim Sheikh</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+
+    function showMenu() {
+        var navLinks = documemt.getElementBtId("navLinks");
+        navLinks.style.right = "0";
+    }
+    function hidenMenu() {
+        var navLinks = document.getElementById("navLinks");
+
+        navLinks.style.right = "-200px";
+    }
+
+</script>
 
 </body>
 
