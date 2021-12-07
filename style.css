@@ -124,7 +124,7 @@ nav .fa {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 h1 {
     font-size: 36px;
@@ -178,11 +178,12 @@ h3 {
     text-align: center;
 }
 .testimonial-col {
-    flex-basis: 44%;
+    flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     background: #fff3f3;
-    padding: 25px;
+    padding: 20px 12px;
+    box-sizing: border-box;
     cursor: pointer;
     display: flex;
 }
@@ -214,4 +215,45 @@ h3 {
     .testimonial-col img {
         flex-direction: column;
     }
+}
+/* call to action*/
+.cta {
+    margin: 30px auto;
+    width: 80%;
+    background-color: #36a8f4;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 0;
+}
+.cta h1 {
+    color: rgb(81, 36, 139);
+    margin-bottom: 40px;
+    padding: 0;
+    text-decoration: black;
+}
+@media (max-width: 700px) {
+    .cta h1 {
+        font-size: 24px;
+    }
+}
+/*footer*/
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fab {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart {
+    color: #f44336;
 }
